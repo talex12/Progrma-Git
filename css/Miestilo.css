@@ -1,0 +1,119 @@
+/* Estilo para el texto del encabezado */
+.header {
+    font-size: 30px;
+}
+
+/* Estilo para reducir el espacio alrededor del logo */
+.logo-container {
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Estilo para ajustar el tamaño del logo */
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilo para centrar el título */
+.title-container {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Ajusta el valor del margen en el carrusel */
+.carousel {
+    margin-bottom: -20px; 
+}
+
+/* Estilo para la barra de navegación que hace scroll */
+.scrolling-navbar {
+    background-color: #a6333e;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+/* Estilo para los elementos del menú cuando hagan scroll */
+.scrolling-navbar ul li a {
+    color: white;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #B31F2F;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Estilo para reducir la distancia entre el carrusel y el navbar */
+.carousel-container {
+    margin-bottom: -20px; /* Ajusta el valor según lo necesites */
+}
+/* Ajusta el valor del espacio entre la navbar y el carousel*/
+.nav-wrapper {
+    margin-bottom: -100px; 
+}
+/* Estilo para el calendario */
+#calendar {
+    margin-top: 20px; /* Ajusta la distancia que desees */
+    position: sticky;
+    top: 20px; 
+}
+
+/* Estilo para el botón "Reserve aquí" */
+.card-image{
+    margin-top: 20px; /* Ajusta la distancia que desees */
+    position: sticky;
+    top: 20px; 
+    
+}
+.image-reserve{
+    height: 100%; /* Establece la altura deseada */
+    width: auto; /* Conserva la relación de aspecto original */
+    object-fit: cover;
+}
+/* Estilo para el color de fondo de los botones */
+.circular.ui.icon.button {
+    background-color: #B31F2F; /* Cambia el color de fondo aquí */
+}
+
+/* Estilo para el color de fondo al pasar el mouse por encima de los botones */
+.circular.ui.icon.button:hover {
+    background-color: #a6333e; /* Cambia el color de fondo al pasar el mouse aquí */
+}
+
+/* Estilo para los enlaces personalizados */
+.custom-link {
+    font-size: 18px; /* Ajusta el tamaño de fuente según tus preferencias */
+    /* Puedes agregar otros estilos personalizados aquí, si es necesario */
+}
+
+/* Otros estilos para enlaces que no son personalizados (subítems de Inicio) */
+ul ul a {
+    font-size: inherit; /* Hereda el tamaño de fuente del elemento padre (tamaño normal) */
+}
